@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <option value="">---------</option>
+{% for course in courses %}
+<option value="{{ course.cid }}">{{ course.cname }}</option>
+{% endfor %}
+  </body>
+</html>
